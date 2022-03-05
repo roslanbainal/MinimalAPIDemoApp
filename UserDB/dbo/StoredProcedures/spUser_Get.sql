@@ -2,7 +2,7 @@
 	@Id int
 AS
 begin
-	select [Id ],[FirstName],[LastName] 
+	select Id,FirstName,LastName 
 	from dbo.[User] 
-	where [Id ] = @Id;
+	where Id = @Id;
 end
